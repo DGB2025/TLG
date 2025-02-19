@@ -51,6 +51,7 @@ The following resources are deployed as part of the solution:
 + **JoinDomain**: Each member VM uses the **JsonADDomainExtension** extension to join the domain.
 + **BGInfo**: The **BGInfo** extension is applied to all VMs.
 + **Antimalware**: The **iaaSAntimalware** extension is applied to all VMs with basic scheduled scan and exclusion settings.
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmaxskunkworks%2FTLG%2Fmaster%2Ftlg-base-config_3-vm%2Fazuredeploy.json)
 
 ## Solution notes
 
